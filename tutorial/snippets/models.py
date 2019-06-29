@@ -26,6 +26,9 @@ class Snippet(models.Model):
 	class Meta:
 		ordering = ('created',)
 
+	def __str__(self):
+		return self.title
+
 	#def save(self, *args, **kwargs):
 	#	lexer = get_lexer_by_name(self.language)
 	#	linenos = 'table' if self.linenos else False
