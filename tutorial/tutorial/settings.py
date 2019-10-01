@@ -25,6 +25,7 @@ SECRET_KEY = 'kmwuc8g8wwq0idy)0@gv=*xq(ixh%)mn@0a=37!3q^y0%u&8qj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+#This allows all the hosts to access this project.
 ALLOWED_HOSTS = []
 
 
